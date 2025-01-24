@@ -1,7 +1,7 @@
 README for Data and R code for a project investigating variations in the predominant RSV subtype detected in wastewater and clinical samples.
 
 Author: WZ
-Associated publication: https://doi.org/10.1021/acsestwater.2c00050
+Associated publication: https://doi.org/10.1128/msphere.00224-24
 
 FILES
 1)	ww_virus_subtypes.Rproj: 		R project file needed to run main R script
@@ -16,8 +16,8 @@ Necessary to run main R script. Save all files (includes this one) in the same d
 2) main_ww_virus_subtypes.R
 The main script for the analysis. This script is used to determine temporal and spatial variations in the predominant RSV subtype detected in wastewater samples, and to conduct a comparative analysis against clinical data.
 
-3) data_ww_sampling_scales.xlsx
-[Original data source: https://doi.org/10.25740/vm787sj6177]
+3) data_ww_virus_subtypes.xlsx
+[Original data source: https://doi.org/10.25740/jb062yw6825]
 
 Collection_Date:			Date of sample collection
 Plant:					Wastewater treatment plant name
@@ -39,7 +39,6 @@ PMMoV_gc_g_dry_weight_LCI_stored:	Lower 68% confidence bound of PMMoV gene conce
 --
 all_data:				RSV A and RSV B data
 pmmov_data:				PMMoV data
-
 
 4) raw_visual_ww_virus_subtypes.ipynb
 Python script used to process raw data and create visuals for the project. Originally created in google collab. Provided for illustratiative purposes.
